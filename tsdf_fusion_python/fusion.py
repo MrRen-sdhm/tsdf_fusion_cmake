@@ -5,6 +5,7 @@ import cv2
 import time
 import os
 import sys
+import glob
 
 from skimage import measure
 from plyfile import PlyData, PlyElement
@@ -456,48 +457,58 @@ def meshwrite_color_binary(filename, verts, faces, norms, colors):
 
 
 if __name__ == "__main__":
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
-    n_imgs = 10
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
+    print path
     if sys.argv.__len__() > 1:
         path = sys.argv[1]  # get data path
-    if sys.argv.__len__() > 2:
-        n_imgs = int(sys.argv[2])  # get data count
-    print "image path to run fusion:", path
-    print "have %d images to fusion" % n_imgs
+
+    # get file prefix in data folder
+    imagels = sorted(glob.glob(os.path.join(path, '*.png')))
+    n_imgs = len(imagels)
+    prefixls = []
+    for image in imagels:
+        prefixls.append(image.split(".")[0])
+
+    # print prefixls
+
+    # prepare for fusion
+    max_depth = 1.2  # max depth
+    print "Image path to run fusion:", path
+    print "Have %d images to fusion..." % n_imgs
 
     # (Optional) sample code to compute 3D bounds (in world coordinates) around convex hull of all camera view frustums in dataset
     print("Estimating voxel volume bounds...")
     cam_intr = np.loadtxt(path + "/camera-intrinsics.txt", delimiter=' ')
     vol_bnds = np.zeros((3, 2))
-    for i in range(n_imgs):
+
+    for prefix in prefixls:
         # Read depth image and camera pose
-        depth_im = cv2.imread(path + "/frame-%06d.depth.png" % i, -1).astype(
-            float) / 1000.  # depth is saved in 16-bit PNG in millimeters
-        depth_im[depth_im == 65.535] = 0  # set invalid depth to 0 (specific to 7-scenes dataset)
-        cam_pose = np.loadtxt(path + "/frame-%06d.pose.txt" % i)  # 4x4 rigid transformation matrix
+        depth_im = cv2.imread(prefix + ".depth.png", -1).astype(float) / 1000.  # depth is saved in 16-bit PNG in millimeters
+        depth_im[depth_im > max_depth] = 0  # set invalid depth to 0 (specific to 7-scenes dataset)
+        cam_pose = np.loadtxt(prefix + ".pose.txt")  # 4x4 rigid transformation matrix
 
         # Compute camera view frustum and extend convex hull
         view_frust_pts = get_view_frustum(depth_im, cam_intr, cam_pose)
         vol_bnds[:, 0] = np.minimum(vol_bnds[:, 0], np.amin(view_frust_pts, axis=1))
         vol_bnds[:, 1] = np.maximum(vol_bnds[:, 1], np.amax(view_frust_pts, axis=1))
 
-    # ---------------------------------------------------------------------
-
     # Initialize voxel volume
     print("Initializing voxel volume...")
-    tsdf_vol = TSDFVolume(vol_bnds, voxel_size=0.02)
+    tsdf_vol = TSDFVolume(vol_bnds, voxel_size=0.002)
 
     # Loop through RGB-D images and fuse them together
     t0_elapse = time.time()
-    for i in range(n_imgs):
-        print("Fusing frame %d/%d" % (i + 1, n_imgs))
+    fusion_cnt = 0
+    for prefix in prefixls:
+        fusion_cnt += 1
+        print("Fusing frame %d/%d" % (fusion_cnt, n_imgs))
 
         # Read RGB-D image and camera pose
-        color_image = cv2.cvtColor(cv2.imread(path + "/frame-%06d.color.jpg" % i), cv2.COLOR_BGR2RGB)
-        depth_im = cv2.imread(path + "/frame-%06d.depth.png" % i, -1).astype(
+        color_image = cv2.cvtColor(cv2.imread(prefix + ".color.jpg"), cv2.COLOR_BGR2RGB)
+        depth_im = cv2.imread(prefix + ".depth.png", -1).astype(
             float) / 1000.  # depth is saved in 16-bit PNG in millimeters
-        depth_im[depth_im == 65.535] = 0  # set invalid depth to 0 (specific to 7-scenes dataset)
-        cam_pose = np.loadtxt(path + "/frame-%06d.pose.txt" % i)  # 4x4 rigid transformation matrix
+        depth_im[depth_im > max_depth] = 0  # set invalid depth to 0 (specific to 7-scenes dataset)
+        cam_pose = np.loadtxt(prefix + ".pose.txt")  # 4x4 rigid transformation matrix
 
         # Integrate observation into voxel volume (assume color aligned with depth)
         tsdf_vol.integrate(color_image, depth_im, cam_intr, cam_pose, obs_weight=1.)
@@ -508,7 +519,9 @@ if __name__ == "__main__":
     # Get mesh from voxel volume and save to disk (can be viewed with Meshlab)
     print("Saving to ply file...")
     verts, faces, norms, colors = tsdf_vol.get_mesh()
-    meshwrite_ascii(path + "/mesh_ascii.ply", verts, faces, norms)
-    meshwrite_color_ascii(path + "/mesh_color_ascii.ply", verts, faces, norms, colors)
-    meshwrite_binary(path + "/mesh_binary.ply", verts, faces)
-    meshwrite_color_binary(path + "/mesh_color_binary.ply", verts, faces, norms, colors)
+
+    path_save = os.path.dirname(path)
+    meshwrite_ascii(path_save + "/mesh_ascii.ply", verts, faces, norms)
+    meshwrite_color_ascii(path_save + "/mesh_color_ascii.ply", verts, faces, norms, colors)
+    meshwrite_binary(path_save + "/mesh_binary.ply", verts, faces)
+    meshwrite_color_binary(path_save + "/mesh_color_binary.ply", verts, faces, norms, colors)
