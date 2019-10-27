@@ -1,0 +1,2632 @@
+0:
+  camera_to_world:
+    quaternion:
+      w: 0.11953648878867319
+      x: -0.7072314506882331
+      y: 0.6764936871686074
+      z: -0.16700597063133923
+    translation:
+      x: 0.29748457941842604
+      y: -0.008264590425996985
+      z: 0.8272653205011803
+  depth_image_filename: 000000_depth.png
+  rgb_image_filename: 000000_rgb.png
+  timestamp: 1523376182520066492
+44:
+  camera_to_world:
+    quaternion:
+      w: 0.12967497427743646
+      x: -0.7057491105642211
+      y: 0.6743651957645429
+      z: -0.17416709426698976
+    translation:
+      x: 0.30953159207125075
+      y: -0.011552418438821025
+      z: 0.7986527446292868
+  depth_image_filename: 000044_depth.png
+  rgb_image_filename: 000044_rgb.png
+  timestamp: 1523376183988255970
+51:
+  camera_to_world:
+    quaternion:
+      w: 0.1409239834112356
+      x: -0.7032295813811655
+      y: 0.6727745115620279
+      z: -0.1816123436401138
+    translation:
+      x: 0.3197378722036163
+      y: -0.015186219448318796
+      z: 0.7659577328649327
+  depth_image_filename: 000051_depth.png
+  rgb_image_filename: 000051_rgb.png
+  timestamp: 1523376184221840851
+57:
+  camera_to_world:
+    quaternion:
+      w: 0.15281632216011146
+      x: -0.6995137510951307
+      y: 0.671935462091415
+      z: -0.1892892455853564
+    translation:
+      x: 0.3271777129281359
+      y: -0.0187334016790746
+      z: 0.7311713625042536
+  depth_image_filename: 000057_depth.png
+  rgb_image_filename: 000057_rgb.png
+  timestamp: 1523376184422013037
+62:
+  camera_to_world:
+    quaternion:
+      w: 0.1632128611411814
+      x: -0.6953934137549937
+      y: 0.6719133692077389
+      z: -0.19576002233395015
+    translation:
+      x: 0.3311622835725961
+      y: -0.021732084937950143
+      z: 0.6987408768938305
+  depth_image_filename: 000062_depth.png
+  rgb_image_filename: 000062_rgb.png
+  timestamp: 1523376184588863842
+67:
+  camera_to_world:
+    quaternion:
+      w: -0.17386835040125084
+      x: 0.6901808133410726
+      y: -0.6725131079924055
+      z: 0.20284565857567216
+    translation:
+      x: 0.3326637185780709
+      y: -0.024583748595630214
+      z: 0.665503720649713
+  depth_image_filename: 000067_depth.png
+  rgb_image_filename: 000067_rgb.png
+  timestamp: 1523376184755700581
+72:
+  camera_to_world:
+    quaternion:
+      w: -0.18380984931409597
+      x: 0.684409791461741
+      y: -0.673719648671424
+      z: 0.2095209097929821
+    translation:
+      x: 0.33170699679199334
+      y: -0.027094229500577785
+      z: 0.6329169015182073
+  depth_image_filename: 000072_depth.png
+  rgb_image_filename: 000072_rgb.png
+  timestamp: 1523376184922518246
+77:
+  camera_to_world:
+    quaternion:
+      w: -0.19255453993709815
+      x: 0.678568665087724
+      y: -0.6751704373228931
+      z: 0.2158985791428272
+    translation:
+      x: 0.3288017894839322
+      y: -0.029079195814851994
+      z: 0.6029956516217403
+  depth_image_filename: 000077_depth.png
+  rgb_image_filename: 000077_rgb.png
+  timestamp: 1523376185089362614
+83:
+  camera_to_world:
+    quaternion:
+      w: -0.2008033955710286
+      x: 0.6720734400737158
+      y: -0.6772168015997753
+      z: 0.22219966495383806
+    translation:
+      x: 0.3239135925472196
+      y: -0.03076102304809697
+      z: 0.5732139499873435
+  depth_image_filename: 000083_depth.png
+  rgb_image_filename: 000083_rgb.png
+  timestamp: 1523376185289562695
+121:
+  camera_to_world:
+    quaternion:
+      w: -0.22761767212791528
+      x: 0.6708768771569402
+      y: -0.6603089736440606
+      z: 0.24921169787220382
+    translation:
+      x: 0.30436751177333254
+      y: -0.05087860397215321
+      z: 0.5861499302206845
+  depth_image_filename: 000121_depth.png
+  rgb_image_filename: 000121_rgb.png
+  timestamp: 1523376186557570450
+127:
+  camera_to_world:
+    quaternion:
+      w: -0.24386193187610516
+      x: 0.673100578783948
+      y: -0.6473624714542953
+      z: 0.26151252278801984
+    translation:
+      x: 0.2915782787122629
+      y: -0.06903920649972914
+      z: 0.6141134299832466
+  depth_image_filename: 000127_depth.png
+  rgb_image_filename: 000127_rgb.png
+  timestamp: 1523376186757762663
+132:
+  camera_to_world:
+    quaternion:
+      w: -0.2602203405016032
+      x: 0.6740961397408989
+      y: -0.6364133588194846
+      z: 0.26992185071192587
+    translation:
+      x: 0.2779440163583019
+      y: -0.09000301617118986
+      z: 0.6376555994290151
+  depth_image_filename: 000132_depth.png
+  rgb_image_filename: 000132_rgb.png
+  timestamp: 1523376186924626104
+136:
+  camera_to_world:
+    quaternion:
+      w: -0.2786717695909646
+      x: 0.6744238097901538
+      y: -0.6260794234159623
+      z: 0.27480743293497645
+    translation:
+      x: 0.26254623245553527
+      y: -0.11633747974168308
+      z: 0.6583653232972293
+  depth_image_filename: 000136_depth.png
+  rgb_image_filename: 000136_rgb.png
+  timestamp: 1523376187091454737
+140:
+  camera_to_world:
+    quaternion:
+      w: -0.29367378838159575
+      x: 0.6739951673283395
+      y: -0.6194231527692685
+      z: 0.2753201377469956
+    translation:
+      x: 0.25027809572082693
+      y: -0.14144696852176428
+      z: 0.6709687303260505
+  depth_image_filename: 000140_depth.png
+  rgb_image_filename: 000140_rgb.png
+  timestamp: 1523376187224907629
+144:
+  camera_to_world:
+    quaternion:
+      w: -0.30870309706724086
+      x: 0.6735123842410052
+      y: -0.6139625087646318
+      z: 0.27227468476986716
+    translation:
+      x: 0.238930481821933
+      y: -0.16912678602270056
+      z: 0.6789993514111954
+  depth_image_filename: 000144_depth.png
+  rgb_image_filename: 000144_rgb.png
+  timestamp: 1523376187358377211
+148:
+  camera_to_world:
+    quaternion:
+      w: -0.32334719853777105
+      x: 0.6731188946389521
+      y: -0.6096589959239404
+      z: 0.26584478848911913
+    translation:
+      x: 0.22944245268031588
+      y: -0.19824813478910133
+      z: 0.6822720882329522
+  depth_image_filename: 000148_depth.png
+  rgb_image_filename: 000148_rgb.png
+  timestamp: 1523376187491861574
+152:
+  camera_to_world:
+    quaternion:
+      w: -0.3366612247218925
+      x: 0.6730557499319186
+      y: -0.6066141089470741
+      z: 0.25627036519793944
+    translation:
+      x: 0.22234700697145837
+      y: -0.22767535570931943
+      z: 0.6805243587062588
+  depth_image_filename: 000152_depth.png
+  rgb_image_filename: 000152_rgb.png
+  timestamp: 1523376187625349276
+157:
+  camera_to_world:
+    quaternion:
+      w: -0.3511583970202665
+      x: 0.673537247490724
+      y: -0.6042039798918735
+      z: 0.24077563649089873
+    translation:
+      x: 0.2170642540719283
+      y: -0.2627361785896564
+      z: 0.6724307797590651
+  depth_image_filename: 000157_depth.png
+  rgb_image_filename: 000157_rgb.png
+  timestamp: 1523376187792162649
+162:
+  camera_to_world:
+    quaternion:
+      w: -0.36261720153822663
+      x: 0.6747351850509224
+      y: -0.6027902302139906
+      z: 0.22334980089860612
+    translation:
+      x: 0.21540830703089192
+      y: -0.2935623623992174
+      z: 0.6599222326872297
+  depth_image_filename: 000162_depth.png
+  rgb_image_filename: 000162_rgb.png
+  timestamp: 1523376187958988897
+168:
+  camera_to_world:
+    quaternion:
+      w: 0.3722521154270363
+      x: -0.6766192017188651
+      y: 0.6018623669058207
+      z: -0.20341216710891896
+    translation:
+      x: 0.21656270817216772
+      y: -0.3223452936955628
+      z: 0.6433425794720679
+  depth_image_filename: 000168_depth.png
+  rgb_image_filename: 000168_rgb.png
+  timestamp: 1523376188159203999
+192:
+  camera_to_world:
+    quaternion:
+      w: 0.37971493612829277
+      x: -0.6793839816466326
+      y: 0.600348866170171
+      z: -0.18394350124764863
+    translation:
+      x: 0.2196358885105793
+      y: -0.3472864152181379
+      z: 0.6264862127337334
+  depth_image_filename: 000192_depth.png
+  rgb_image_filename: 000192_rgb.png
+  timestamp: 1523376188960004084
+203:
+  camera_to_world:
+    quaternion:
+      w: 0.39479982974851857
+      x: -0.692009132022338
+      y: 0.5755030734568053
+      z: -0.18453365023757073
+    translation:
+      x: 0.22261384132470718
+      y: -0.3784251076424614
+      z: 0.6396248290972902
+  depth_image_filename: 000203_depth.png
+  rgb_image_filename: 000203_rgb.png
+  timestamp: 1523376189327095739
+209:
+  camera_to_world:
+    quaternion:
+      w: 0.40950423780872747
+      x: -0.6996029812479859
+      y: 0.5572929428551877
+      z: -0.17968451154573445
+    translation:
+      x: 0.22733510685154834
+      y: -0.40905773131035406
+      z: 0.6437849231604751
+  depth_image_filename: 000209_depth.png
+  rgb_image_filename: 000209_rgb.png
+  timestamp: 1523376189527301065
+214:
+  camera_to_world:
+    quaternion:
+      w: 0.4237256405485105
+      x: -0.7042574757225237
+      y: 0.5438080776972949
+      z: -0.1695605026586835
+    translation:
+      x: 0.2344658340293163
+      y: -0.43820994525096474
+      z: 0.6401805792737313
+  depth_image_filename: 000214_depth.png
+  rgb_image_filename: 000214_rgb.png
+  timestamp: 1523376189694122068
+219:
+  camera_to_world:
+    quaternion:
+      w: 0.43860027116106515
+      x: -0.7070582885873755
+      y: 0.5332212504718857
+      z: -0.15288386678302895
+    translation:
+      x: 0.24523449374199033
+      y: -0.4674616182692339
+      z: 0.6286491015403208
+  depth_image_filename: 000219_depth.png
+  rgb_image_filename: 000219_rgb.png
+  timestamp: 1523376189860968344
+224:
+  camera_to_world:
+    quaternion:
+      w: 0.4526742814694048
+      x: -0.7080079460976134
+      y: 0.5259627330696172
+      z: -0.1310494051140127
+    translation:
+      x: 0.2584059943616057
+      y: -0.49370814377366323
+      z: 0.6104777488906625
+  depth_image_filename: 000224_depth.png
+  rgb_image_filename: 000224_rgb.png
+  timestamp: 1523376190027814142
+229:
+  camera_to_world:
+    quaternion:
+      w: 0.46459633939956263
+      x: -0.7078785084837589
+      y: 0.5212214148506378
+      z: -0.10670752243602208
+    translation:
+      x: 0.27263548609574756
+      y: -0.5141853021134747
+      z: 0.5889769393573545
+  depth_image_filename: 000229_depth.png
+  rgb_image_filename: 000229_rgb.png
+  timestamp: 1523376190194635384
+235:
+  camera_to_world:
+    quaternion:
+      w: 0.4747466694968304
+      x: -0.7069280999096341
+      y: 0.5180171700631585
+      z: -0.08078658848829462
+    translation:
+      x: 0.28726398480149606
+      y: -0.5298891160149207
+      z: 0.5656210385560106
+  depth_image_filename: 000235_depth.png
+  rgb_image_filename: 000235_rgb.png
+  timestamp: 1523376190394850485
+262:
+  camera_to_world:
+    quaternion:
+      w: 0.48585372042724234
+      x: -0.7131475603754027
+      y: 0.5008893270590948
+      z: -0.06690741002239631
+    translation:
+      x: 0.297918015176072
+      y: -0.5429789328662133
+      z: 0.5404025953462583
+  depth_image_filename: 000262_depth.png
+  rgb_image_filename: 000262_rgb.png
+  timestamp: 1523376191295793526
+271:
+  camera_to_world:
+    quaternion:
+      w: 0.500914632913739
+      x: -0.7270018629017245
+      y: 0.464170577859803
+      z: -0.07140375704130134
+    translation:
+      x: 0.30432588418534146
+      y: -0.5570852447574106
+      z: 0.5118307665106656
+  depth_image_filename: 000271_depth.png
+  rgb_image_filename: 000271_rgb.png
+  timestamp: 1523376191596092216
+278:
+  camera_to_world:
+    quaternion:
+      w: 0.5158980429418323
+      x: -0.7389178110070206
+      y: 0.42571998894401697
+      z: -0.08131524382849517
+    translation:
+      x: 0.31061934425692017
+      y: -0.5705297133270512
+      z: 0.4829031993651359
+  depth_image_filename: 000278_depth.png
+  rgb_image_filename: 000278_rgb.png
+  timestamp: 1523376191829677336
+284:
+  camera_to_world:
+    quaternion:
+      w: 0.5290290323532169
+      x: -0.7479734068614592
+      y: 0.3893396305660484
+      z: -0.09528230489537129
+    translation:
+      x: 0.31641725887022765
+      y: -0.5823806716018572
+      z: 0.45570831605964757
+  depth_image_filename: 000284_depth.png
+  rgb_image_filename: 000284_rgb.png
+  timestamp: 1523376192029870264
+291:
+  camera_to_world:
+    quaternion:
+      w: 0.5422201079478981
+      x: -0.7567960770950113
+      y: 0.3455767376826249
+      z: -0.11761705064831113
+    translation:
+      x: 0.32321045943223453
+      y: -0.5952330697096156
+      z: 0.4242260172116431
+  depth_image_filename: 000291_depth.png
+  rgb_image_filename: 000291_rgb.png
+  timestamp: 1523376192263452284
+298:
+  camera_to_world:
+    quaternion:
+      w: 0.5513853900989777
+      x: -0.7634220091645703
+      y: 0.3039585263144546
+      z: -0.14411870728422213
+    translation:
+      x: 0.32926541723145597
+      y: -0.6064664257419966
+      z: 0.3957995207361812
+  depth_image_filename: 000298_depth.png
+  rgb_image_filename: 000298_rgb.png
+  timestamp: 1523376192497007839
+307:
+  camera_to_world:
+    quaternion:
+      w: 0.5564997003071518
+      x: -0.7691744145975705
+      y: 0.258758757154014
+      z: -0.1781087001879615
+    translation:
+      x: 0.33545206046188725
+      y: -0.6178191811943377
+      z: 0.367035512829483
+  depth_image_filename: 000307_depth.png
+  rgb_image_filename: 000307_rgb.png
+  timestamp: 1523376192797351830
+343:
+  camera_to_world:
+    quaternion:
+      w: 0.5565970013017739
+      x: -0.7756397438298128
+      y: 0.2249284181971597
+      z: -0.1949101655143217
+    translation:
+      x: 0.3472758911216882
+      y: -0.6165187334781124
+      z: 0.33945620898800055
+  depth_image_filename: 000343_depth.png
+  rgb_image_filename: 000343_rgb.png
+  timestamp: 1523376193998585455
+353:
+  camera_to_world:
+    quaternion:
+      w: 0.5510442353020726
+      x: -0.7851582196922466
+      y: 0.23025200948016727
+      z: -0.1638927482239545
+    translation:
+      x: 0.3625477666181044
+      y: -0.5891144015534114
+      z: 0.32862100182863
+  depth_image_filename: 000353_depth.png
+  rgb_image_filename: 000353_rgb.png
+  timestamp: 1523376194332248442
+360:
+  camera_to_world:
+    quaternion:
+      w: 0.5387252536317773
+      x: -0.7976543199380945
+      y: 0.23006110443292427
+      z: -0.14350810155032026
+    translation:
+      x: 0.374502844269683
+      y: -0.561655874052088
+      z: 0.32421867943006977
+  depth_image_filename: 000360_depth.png
+  rgb_image_filename: 000360_rgb.png
+  timestamp: 1523376194565832369
+366:
+  camera_to_world:
+    quaternion:
+      w: 0.5184903140192539
+      x: -0.8143709880082413
+      y: 0.22537108933075706
+      z: -0.1310555617002383
+    translation:
+      x: 0.3846728808690987
+      y: -0.5302776247313552
+      z: 0.32462813880906627
+  depth_image_filename: 000366_depth.png
+  rgb_image_filename: 000366_rgb.png
+  timestamp: 1523376194799421064
+373:
+  camera_to_world:
+    quaternion:
+      w: 0.49287590698791456
+      x: -0.8325253222587171
+      y: 0.21728662171393426
+      z: -0.12946602694531487
+    translation:
+      x: 0.39139159816009633
+      y: -0.49872396121113405
+      z: 0.3295415105969811
+  depth_image_filename: 000373_depth.png
+  rgb_image_filename: 000373_rgb.png
+  timestamp: 1523376195032986156
+381:
+  camera_to_world:
+    quaternion:
+      w: 0.46255672630932043
+      x: -0.850984469488892
+      y: 0.2063472871117767
+      z: -0.1388794611752388
+    translation:
+      x: 0.39500824937231316
+      y: -0.4668748847320007
+      z: 0.33830235227531247
+  depth_image_filename: 000381_depth.png
+  rgb_image_filename: 000381_rgb.png
+  timestamp: 1523376195299946777
+393:
+  camera_to_world:
+    quaternion:
+      w: 0.4323862005786562
+      x: -0.8665736723733116
+      y: 0.19389737834198573
+      z: -0.15651214192736465
+    translation:
+      x: 0.39573807889243556
+      y: -0.43772003812914256
+      z: 0.3488485856573468
+  depth_image_filename: 000393_depth.png
+  rgb_image_filename: 000393_rgb.png
+  timestamp: 1523376195700324766
+416:
+  camera_to_world:
+    quaternion:
+      w: 0.4256033972558084
+      x: -0.860497089013655
+      y: 0.22578393102619754
+      z: -0.1656143850445895
+    translation:
+      x: 0.37668912258884096
+      y: -0.4408906611491469
+      z: 0.3776569742702751
+  depth_image_filename: 000416_depth.png
+  rgb_image_filename: 000416_rgb.png
+  timestamp: 1523376196467800848
+420:
+  camera_to_world:
+    quaternion:
+      w: 0.42155364046624566
+      x: -0.8525427087926403
+      y: 0.25666084844812576
+      z: -0.17201356565123452
+    translation:
+      x: 0.35868261971290055
+      y: -0.44370105095967577
+      z: 0.4035469833916858
+  depth_image_filename: 000420_depth.png
+  rgb_image_filename: 000420_rgb.png
+  timestamp: 1523376196601271860
+424:
+  camera_to_world:
+    quaternion:
+      w: 0.41688425463513235
+      x: -0.8413119357828063
+      y: 0.2940252214911549
+      z: -0.17874818621114713
+    translation:
+      x: 0.337061072804567
+      y: -0.44406629862652724
+      z: 0.43423065608618105
+  depth_image_filename: 000424_depth.png
+  rgb_image_filename: 000424_rgb.png
+  timestamp: 1523376196734722607
+427:
+  camera_to_world:
+    quaternion:
+      w: 0.4129109801723233
+      x: -0.8307435295528427
+      y: 0.32520763380464557
+      z: -0.18332949973859036
+    translation:
+      x: 0.31955325532628776
+      y: -0.44199284040659226
+      z: 0.4587826813681858
+  depth_image_filename: 000427_depth.png
+  rgb_image_filename: 000427_rgb.png
+  timestamp: 1523376196834846489
+430:
+  camera_to_world:
+    quaternion:
+      w: 0.40886212356673557
+      x: -0.8184290507915551
+      y: 0.3576551690571809
+      z: -0.187319066780759
+    translation:
+      x: 0.30192828133950234
+      y: -0.43729785710094315
+      z: 0.4838096152416633
+  depth_image_filename: 000430_depth.png
+  rgb_image_filename: 000430_rgb.png
+  timestamp: 1523376196934958212
+433:
+  camera_to_world:
+    quaternion:
+      w: 0.40461454075678127
+      x: -0.8044919752446971
+      y: 0.3909989660516464
+      z: -0.190261776827632
+    translation:
+      x: 0.285003747589945
+      y: -0.4303062141588692
+      z: 0.5081763392124021
+  depth_image_filename: 000433_depth.png
+  rgb_image_filename: 000433_rgb.png
+  timestamp: 1523376197035045616
+437:
+  camera_to_world:
+    quaternion:
+      w: 0.39944505275822273
+      x: -0.7834512749049571
+      y: 0.4352390666772352
+      z: -0.19291113113220587
+    translation:
+      x: 0.2645534745802121
+      y: -0.41785637086034744
+      z: 0.538513542671024
+  depth_image_filename: 000437_depth.png
+  rgb_image_filename: 000437_rgb.png
+  timestamp: 1523376197168506376
+441:
+  camera_to_world:
+    quaternion:
+      w: 0.3945430540587709
+      x: -0.7610442158948152
+      y: 0.47727464794910557
+      z: -0.19327801316259863
+    translation:
+      x: 0.24818718776496745
+      y: -0.4025688622001393
+      z: 0.5648558424447747
+  depth_image_filename: 000441_depth.png
+  rgb_image_filename: 000441_rgb.png
+  timestamp: 1523376197301975481
+446:
+  camera_to_world:
+    quaternion:
+      w: 0.3888976297146
+      x: -0.7327253589055273
+      y: 0.5246202524784775
+      z: -0.1914308562080591
+    translation:
+      x: 0.23353021997596024
+      y: -0.3825319603824893
+      z: 0.5912025724377833
+  depth_image_filename: 000446_depth.png
+  rgb_image_filename: 000446_rgb.png
+  timestamp: 1523376197468829386
+452:
+  camera_to_world:
+    quaternion:
+      w: 0.3834397919269089
+      x: -0.7024564445234444
+      y: 0.569470901516
+      z: -0.18770125689798628
+    translation:
+      x: 0.22390023070028983
+      y: -0.36155754190536
+      z: 0.6126963648454605
+  depth_image_filename: 000452_depth.png
+  rgb_image_filename: 000452_rgb.png
+  timestamp: 1523376197669047348
+478:
+  camera_to_world:
+    quaternion:
+      w: 0.37722665737696126
+      x: -0.6781037526346216
+      y: 0.6014075144807985
+      z: -0.19022184720235624
+    translation:
+      x: 0.21853390083183954
+      y: -0.33858172610642795
+      z: 0.6316347992996232
+  depth_image_filename: 000478_depth.png
+  rgb_image_filename: 000478_rgb.png
+  timestamp: 1523376198536570541
+486:
+  camera_to_world:
+    quaternion:
+      w: 0.36846410231529536
+      x: -0.6756759198026394
+      y: 0.6021924806395977
+      z: -0.21227452264690086
+    translation:
+      x: 0.2158818588232937
+      y: -0.31018527060188567
+      z: 0.6509325175831218
+  depth_image_filename: 000486_depth.png
+  rgb_image_filename: 000486_rgb.png
+  timestamp: 1523376198803547852
+491:
+  camera_to_world:
+    quaternion:
+      w: -0.3589631573176661
+      x: 0.6742906781867335
+      y: -0.6031071520855574
+      z: 0.2296503779710752
+    translation:
+      x: 0.21585243678009447
+      y: -0.28304689778989184
+      z: 0.6647648428886185
+  depth_image_filename: 000491_depth.png
+  rgb_image_filename: 000491_rgb.png
+  timestamp: 1523376198970398895
+496:
+  camera_to_world:
+    quaternion:
+      w: -0.3464310800060217
+      x: 0.6734506894830219
+      y: -0.6047223389199848
+      z: 0.2464965891282189
+    translation:
+      x: 0.21870900637383978
+      y: -0.250247868154719
+      z: 0.6759604795560783
+  depth_image_filename: 000496_depth.png
+  rgb_image_filename: 000496_rgb.png
+  timestamp: 1523376199137230865
+501:
+  camera_to_world:
+    quaternion:
+      w: -0.33098324031588044
+      x: 0.6730447608526907
+      y: -0.6077856503430518
+      z: 0.26087822399697935
+    translation:
+      x: 0.22534188232581875
+      y: -0.21445378075542126
+      z: 0.6818659873044882
+  depth_image_filename: 000501_depth.png
+  rgb_image_filename: 000501_rgb.png
+  timestamp: 1523376199304075710
+505:
+  camera_to_world:
+    quaternion:
+      w: -0.31711793784848585
+      x: 0.6730494072742983
+      y: -0.6115290007047861
+      z: 0.26920807966969684
+    translation:
+      x: 0.23344461822441814
+      y: -0.1851422072119272
+      z: 0.6814882034393356
+  depth_image_filename: 000505_depth.png
+  rgb_image_filename: 000505_rgb.png
+  timestamp: 1523376199437525980
+509:
+  camera_to_world:
+    quaternion:
+      w: -0.30223312605825864
+      x: 0.6736663743333828
+      y: -0.6162231389491565
+      z: 0.2740397719843163
+    translation:
+      x: 0.2438728541772419
+      y: -0.1564423232051244
+      z: 0.6760195891355013
+  depth_image_filename: 000509_depth.png
+  rgb_image_filename: 000509_rgb.png
+  timestamp: 1523376199570988647
+513:
+  camera_to_world:
+    quaternion:
+      w: -0.28681438123554115
+      x: 0.674242652216648
+      y: -0.6223414331893895
+      z: 0.2753642990369502
+    translation:
+      x: 0.2558839323604361
+      y: -0.129801239245938
+      z: 0.6656755468274277
+  depth_image_filename: 000513_depth.png
+  rgb_image_filename: 000513_rgb.png
+  timestamp: 1523376199704473488
+517:
+  camera_to_world:
+    quaternion:
+      w: -0.27185071369720754
+      x: 0.6743847826360199
+      y: -0.629743056195367
+      z: 0.2733606364951012
+    translation:
+      x: 0.2682217281902455
+      y: -0.10627595263042341
+      z: 0.6512958297934107
+  depth_image_filename: 000517_depth.png
+  rgb_image_filename: 000517_rgb.png
+  timestamp: 1523376199837956898
+522:
+  camera_to_world:
+    quaternion:
+      w: -0.2542191983819087
+      x: 0.6738703169260217
+      y: -0.6402126064632302
+      z: 0.2672063129225065
+    translation:
+      x: 0.28308928339298184
+      y: -0.08180621136199491
+      z: 0.6293442536707102
+  depth_image_filename: 000522_depth.png
+  rgb_image_filename: 000522_rgb.png
+  timestamp: 1523376200004788630
+527:
+  camera_to_world:
+    quaternion:
+      w: -0.23869386081201732
+      x: 0.6725548594792461
+      y: -0.6512750085772044
+      z: 0.2579458567301823
+    translation:
+      x: 0.295889227514381
+      y: -0.06282384436357111
+      z: 0.605543575064501
+  depth_image_filename: 000527_depth.png
+  rgb_image_filename: 000527_rgb.png
+  timestamp: 1523376200171633236
+533:
+  camera_to_world:
+    quaternion:
+      w: -0.2237889795889196
+      x: 0.6700256681420834
+      y: -0.6638357708760246
+      z: 0.24557313768150554
+    translation:
+      x: 0.3073935920780909
+      y: -0.04675098315589851
+      z: 0.5786065157192699
+  depth_image_filename: 000533_depth.png
+  rgb_image_filename: 000533_rgb.png
+  timestamp: 1523376200371854059
+542:
+  camera_to_world:
+    quaternion:
+      w: -0.21028388486217545
+      x: 0.6664295640775985
+      y: -0.6769281432654957
+      z: 0.23112899590000016
+    translation:
+      x: 0.3164643413756123
+      y: -0.03403485806511347
+      z: 0.5508598340191094
+  depth_image_filename: 000542_depth.png
+  rgb_image_filename: 000542_rgb.png
+  timestamp: 1523376200672131054
+569:
+  camera_to_world:
+    quaternion:
+      w: -0.1979579196821516
+      x: 0.6746321522136562
+      y: -0.6801103842777918
+      z: 0.2076872322320287
+    translation:
+      x: 0.3282464102930036
+      y: -0.0026758985836490817
+      z: 0.5540768919605551
+  depth_image_filename: 000569_depth.png
+  rgb_image_filename: 000569_rgb.png
+  timestamp: 1523376201573074572
+575:
+  camera_to_world:
+    quaternion:
+      w: -0.186265861391673
+      x: 0.6820896447225464
+      y: -0.6814230951394308
+      z: 0.18900082236034668
+    translation:
+      x: 0.3371719986651199
+      y: 0.02968829057680118
+      z: 0.5625061999741328
+  depth_image_filename: 000575_depth.png
+  rgb_image_filename: 000575_rgb.png
+  timestamp: 1523376201773305170
+580:
+  camera_to_world:
+    quaternion:
+      w: -0.17371009979997415
+      x: 0.6874812604904834
+      y: -0.6835249920039651
+      z: 0.17317015622756232
+    translation:
+      x: 0.34332395872218735
+      y: 0.06247594613799363
+      z: 0.570114042655339
+  depth_image_filename: 000580_depth.png
+  rgb_image_filename: 000580_rgb.png
+  timestamp: 1523376201940119974
+585:
+  camera_to_world:
+    quaternion:
+      w: -0.16038197684925803
+      x: 0.6912876545928395
+      y: -0.6861838518861525
+      z: 0.15984593057109328
+    translation:
+      x: 0.3472511454730636
+      y: 0.09821090455921658
+      z: 0.5780630591604432
+  depth_image_filename: 000585_depth.png
+  rgb_image_filename: 000585_rgb.png
+  timestamp: 1523376202106989853
+590:
+  camera_to_world:
+    quaternion:
+      w: -0.14735641179280365
+      x: 0.6927898102306249
+      y: -0.6898814447486348
+      z: 0.14963942974931865
+    translation:
+      x: 0.3484070527176787
+      y: 0.13392908845659576
+      z: 0.5855377612472523
+  depth_image_filename: 000590_depth.png
+  rgb_image_filename: 000590_rgb.png
+  timestamp: 1523376202273835890
+594:
+  camera_to_world:
+    quaternion:
+      w: -0.13649646949263455
+      x: 0.6923582410748874
+      y: -0.6939822452239901
+      z: 0.1428195474912454
+    translation:
+      x: 0.34702974237130696
+      y: 0.16707779250272492
+      z: 0.5923385549450013
+  depth_image_filename: 000594_depth.png
+  rgb_image_filename: 000594_rgb.png
+  timestamp: 1523376202440643064
+600:
+  camera_to_world:
+    quaternion:
+      w: -0.1267359256469061
+      x: 0.6903802495085608
+      y: -0.698760923077319
+      z: 0.13800829184890423
+    translation:
+      x: 0.34340223209660253
+      y: 0.1997169280388548
+      z: 0.5988414359088312
+  depth_image_filename: 000600_depth.png
+  rgb_image_filename: 000600_rgb.png
+  timestamp: 1523376202640865080
+629:
+  camera_to_world:
+    quaternion:
+      w: -0.1333576037211337
+      x: 0.6801393066521533
+      y: -0.7080980376322001
+      z: 0.13499423016526685
+    translation:
+      x: 0.3323593875136834
+      y: 0.22400646577815547
+      z: 0.6143009072867394
+  depth_image_filename: 000629_depth.png
+  rgb_image_filename: 000629_rgb.png
+  timestamp: 1523376203608501188
+637:
+  camera_to_world:
+    quaternion:
+      w: -0.1672385863561536
+      x: 0.6609602711782864
+      y: -0.7187692227199631
+      z: 0.1361380902909367
+    translation:
+      x: 0.31409655149144444
+      y: 0.22053164112817425
+      z: 0.6394256578735413
+  depth_image_filename: 000637_depth.png
+  rgb_image_filename: 000637_rgb.png
+  timestamp: 1523376203875449173
+643:
+  camera_to_world:
+    quaternion:
+      w: -0.20162862264689616
+      x: 0.6406116517140777
+      y: -0.7274883799483235
+      z: 0.1404395501909695
+    translation:
+      x: 0.29235648933269104
+      y: 0.2197580651348509
+      z: 0.6633898299297678
+  depth_image_filename: 000643_depth.png
+  rgb_image_filename: 000643_rgb.png
+  timestamp: 1523376204075664989
+648:
+  camera_to_world:
+    quaternion:
+      w: -0.2331304083969087
+      x: 0.6211357893100018
+      y: -0.7334413986826138
+      z: 0.14800087370493156
+    translation:
+      x: 0.2694449458995309
+      y: 0.2223935180625628
+      z: 0.6833513010702914
+  depth_image_filename: 000648_depth.png
+  rgb_image_filename: 000648_rgb.png
+  timestamp: 1523376204242475502
+653:
+  camera_to_world:
+    quaternion:
+      w: -0.2648638950273962
+      x: 0.60049325307799
+      y: -0.7373534512367029
+      z: 0.15989014374892924
+    translation:
+      x: 0.24308965254062842
+      y: 0.22992202592955835
+      z: 0.7005868852973154
+  depth_image_filename: 000653_depth.png
+  rgb_image_filename: 000653_rgb.png
+  timestamp: 1523376204409326307
+658:
+  camera_to_world:
+    quaternion:
+      w: -0.2946751277387428
+      x: 0.5794412937946456
+      y: -0.7390756225121183
+      z: 0.17658306925089923
+    translation:
+      x: 0.21516125378121928
+      y: 0.24341108464145073
+      z: 0.7126685818026172
+  depth_image_filename: 000658_depth.png
+  rgb_image_filename: 000658_rgb.png
+  timestamp: 1523376204576156609
+663:
+  camera_to_world:
+    quaternion:
+      w: -0.32004466931233544
+      x: 0.5588968237096749
+      y: -0.7389740291882143
+      z: 0.19779568821723825
+    translation:
+      x: 0.18901454111591368
+      y: 0.2633702540726544
+      z: 0.7172046040729562
+  depth_image_filename: 000663_depth.png
+  rgb_image_filename: 000663_rgb.png
+  timestamp: 1523376204742998354
+668:
+  camera_to_world:
+    quaternion:
+      w: -0.3397254265638205
+      x: 0.5400701717991547
+      y: -0.7369957652941801
+      z: 0.22304278965550306
+    translation:
+      x: 0.16677244772104077
+      y: 0.2896684772323197
+      z: 0.7127036861797423
+  depth_image_filename: 000668_depth.png
+  rgb_image_filename: 000668_rgb.png
+  timestamp: 1523376204909844391
+673:
+  camera_to_world:
+    quaternion:
+      w: -0.35234898311466395
+      x: 0.5228628171419629
+      y: -0.73433670634103
+      z: 0.2514244822379894
+    translation:
+      x: 0.1515162211753056
+      y: 0.32026901046949763
+      z: 0.6986200322613187
+  depth_image_filename: 000673_depth.png
+  rgb_image_filename: 000673_rgb.png
+  timestamp: 1523376205076704256
+677:
+  camera_to_world:
+    quaternion:
+      w: -0.35710350762251786
+      x: 0.5103618401584127
+      y: -0.7322258319418044
+      z: 0.27541461107019616
+    translation:
+      x: 0.14573764230081615
+      y: 0.3462293975427573
+      z: 0.6805781054355514
+  depth_image_filename: 000677_depth.png
+  rgb_image_filename: 000677_rgb.png
+  timestamp: 1523376205210144512
+681:
+  camera_to_world:
+    quaternion:
+      w: -0.3572592294315981
+      x: 0.4988344705440563
+      y: -0.7304972952810963
+      z: 0.29983948300711566
+    translation:
+      x: 0.1460871831810247
+      y: 0.3715369147934287
+      z: 0.657392118013163
+  depth_image_filename: 000681_depth.png
+  rgb_image_filename: 000681_rgb.png
+  timestamp: 1523376205343618624
+685:
+  camera_to_world:
+    quaternion:
+      w: -0.35321974009851365
+      x: 0.4879915650801123
+      y: -0.7294893549623364
+      z: 0.32395266415332535
+    translation:
+      x: 0.15238235581361265
+      y: 0.3947301286492406
+      z: 0.6300101576098566
+  depth_image_filename: 000685_depth.png
+  rgb_image_filename: 000685_rgb.png
+  timestamp: 1523376205477084152
+689:
+  camera_to_world:
+    quaternion:
+      w: -0.34554124434713845
+      x: 0.4779058102234067
+      y: -0.7292482337715247
+      z: 0.34699322551146694
+    translation:
+      x: 0.1637574844480866
+      y: 0.4144929425980531
+      z: 0.5997472481039513
+  depth_image_filename: 000689_depth.png
+  rgb_image_filename: 000689_rgb.png
+  timestamp: 1523376205610568039
+693:
+  camera_to_world:
+    quaternion:
+      w: -0.33511114674183246
+      x: 0.46836234947600475
+      y: -0.7297851054943345
+      z: 0.3684439288702066
+    translation:
+      x: 0.17900517425742965
+      y: 0.42994420338316314
+      z: 0.5680986605275214
+  depth_image_filename: 000693_depth.png
+  rgb_image_filename: 000693_rgb.png
+  timestamp: 1523376205744045012
+697:
+  camera_to_world:
+    quaternion:
+      w: -0.32296437011190365
+      x: 0.45936227853368905
+      y: -0.7309161714542414
+      z: 0.38786835782934387
+    translation:
+      x: 0.196467953891398
+      y: 0.4408838437498503
+      z: 0.5366573994491747
+  depth_image_filename: 000697_depth.png
+  rgb_image_filename: 000697_rgb.png
+  timestamp: 1523376205877489321
+701:
+  camera_to_world:
+    quaternion:
+      w: -0.3101375014220894
+      x: 0.4510628540441744
+      y: -0.7324495231294683
+      z: 0.40481443647750714
+    translation:
+      x: 0.21464683320955005
+      y: 0.44752685574068424
+      z: 0.5068798935181531
+  depth_image_filename: 000701_depth.png
+  rgb_image_filename: 000701_rgb.png
+  timestamp: 1523376206010950796
+705:
+  camera_to_world:
+    quaternion:
+      w: -0.29766137143935645
+      x: 0.4435431423744841
+      y: -0.7342889584262262
+      z: 0.41891158296081793
+    translation:
+      x: 0.23179093151006921
+      y: 0.4505102975281781
+      z: 0.48020833193302515
+  depth_image_filename: 000705_depth.png
+  rgb_image_filename: 000705_rgb.png
+  timestamp: 1523376206144428484
+710:
+  camera_to_world:
+    quaternion:
+      w: -0.28413543344319403
+      x: 0.43564696042081286
+      y: -0.7365036950216762
+      z: 0.43248247196571177
+    translation:
+      x: 0.250016874708315
+      y: 0.45073434629752596
+      z: 0.45313163972345305
+  depth_image_filename: 000710_depth.png
+  rgb_image_filename: 000710_rgb.png
+  timestamp: 1523376206311285727
+719:
+  camera_to_world:
+    quaternion:
+      w: -0.27089245156095354
+      x: 0.4281977238152652
+      y: -0.7387626321368415
+      z: 0.44440270292266365
+    translation:
+      x: 0.2671966323103431
+      y: 0.44863406600466876
+      z: 0.42815037846920867
+  depth_image_filename: 000719_depth.png
+  rgb_image_filename: 000719_rgb.png
+  timestamp: 1523376206611601822
+745:
+  camera_to_world:
+    quaternion:
+      w: 0.240590943217535
+      x: -0.4181756107039504
+      y: 0.7470780713325139
+      z: -0.45729586920085635
+    translation:
+      x: 0.2839518782180918
+      y: 0.4665420835117038
+      z: 0.4090290275450319
+  depth_image_filename: 000745_depth.png
+  rgb_image_filename: 000745_rgb.png
+  timestamp: 1523376207479172699
+752:
+  camera_to_world:
+    quaternion:
+      w: 0.21102790983783273
+      x: -0.40602698064058185
+      y: 0.7547529194001292
+      z: -0.47006099914622734
+    translation:
+      x: 0.30115507453678486
+      y: 0.4841551557415515
+      z: 0.3887532944190589
+  depth_image_filename: 000752_depth.png
+  rgb_image_filename: 000752_rgb.png
+  timestamp: 1523376207712738506
+758:
+  camera_to_world:
+    quaternion:
+      w: 0.18292826505459922
+      x: -0.391232992251807
+      y: 0.7621162417696454
+      z: -0.48234098897846356
+    translation:
+      x: 0.31877259610134323
+      y: 0.5007752814261877
+      z: 0.36748948610109433
+  depth_image_filename: 000758_depth.png
+  rgb_image_filename: 000758_rgb.png
+  timestamp: 1523376207912966482
+764:
+  camera_to_world:
+    quaternion:
+      w: -0.15590044312117643
+      x: 0.37319847958395197
+      y: -0.7694339390345672
+      z: 0.49435752258117627
+    translation:
+      x: 0.33740522148460633
+      y: 0.5177188747582103
+      z: 0.3445573078724389
+  depth_image_filename: 000764_depth.png
+  rgb_image_filename: 000764_rgb.png
+  timestamp: 1523376208113193266
+770:
+  camera_to_world:
+    quaternion:
+      w: -0.13287060585900146
+      x: 0.351801466459471
+      y: -0.7768212600377278
+      z: 0.5051038113586406
+    translation:
+      x: 0.35598417418989975
+      y: 0.5336615484965136
+      z: 0.3226803046077848
+  depth_image_filename: 000770_depth.png
+  rgb_image_filename: 000770_rgb.png
+  timestamp: 1523376208313361160
+777:
+  camera_to_world:
+    quaternion:
+      w: 0.11384048448607181
+      x: -0.32364375648133314
+      y: 0.78592703548316
+      z: -0.5144062187408704
+    translation:
+      x: 0.37682733117287137
+      y: 0.5506412769872803
+      z: 0.30143170284707854
+  depth_image_filename: 000777_depth.png
+  rgb_image_filename: 000777_rgb.png
+  timestamp: 1523376208546955578
+785:
+  camera_to_world:
+    quaternion:
+      w: 0.10348606630919968
+      x: -0.2881326105272285
+      y: 0.7980802304536277
+      z: -0.5189780135898798
+    translation:
+      x: 0.3985322982849083
+      y: 0.5669544992699042
+      z: 0.28669220589213495
+  depth_image_filename: 000785_depth.png
+  rgb_image_filename: 000785_rgb.png
+  timestamp: 1523376208813862555
+796:
+  camera_to_world:
+    quaternion:
+      w: 0.10566380585373567
+      x: -0.23640264636133063
+      y: 0.8168036839754692
+      z: -0.5155392233089227
+    translation:
+      x: 0.42470995481414375
+      y: 0.582387412962897
+      z: 0.28448102863565194
+  depth_image_filename: 000796_depth.png
+  rgb_image_filename: 000796_rgb.png
+  timestamp: 1523376209180914156
+811:
+  camera_to_world:
+    quaternion:
+      w: 0.11903427526611676
+      x: -0.1782094244901371
+      y: 0.837606954299114
+      z: -0.5024806786778245
+    translation:
+      x: 0.44962233084316283
+      y: 0.5898610708585563
+      z: 0.29955818679022517
+  depth_image_filename: 000811_depth.png
+  rgb_image_filename: 000811_rgb.png
+  timestamp: 1523376209681450121
+835:
+  camera_to_world:
+    quaternion:
+      w: 0.11654665594469979
+      x: -0.1720919438109424
+      y: 0.8526972372882856
+      z: -0.4792793145801358
+    translation:
+      x: 0.46647667928634645
+      y: 0.5867870951972403
+      z: 0.3250276272864654
+  depth_image_filename: 000835_depth.png
+  rgb_image_filename: 000835_rgb.png
+  timestamp: 1523376210515636675
+839:
+  camera_to_world:
+    quaternion:
+      w: 0.11200283153572882
+      x: -0.17824459805344084
+      y: 0.8661863811460715
+      z: -0.4532167054619884
+    translation:
+      x: 0.48214268922266584
+      y: 0.5806623190561548
+      z: 0.3540730857928267
+  depth_image_filename: 000839_depth.png
+  rgb_image_filename: 000839_rgb.png
+  timestamp: 1523376210649102919
+842:
+  camera_to_world:
+    quaternion:
+      w: 0.1105008425300269
+      x: -0.18294201696299583
+      y: 0.8772035577614206
+      z: -0.4299252266154794
+    translation:
+      x: 0.4955500442536903
+      y: 0.573617317125044
+      z: 0.38130513437216695
+  depth_image_filename: 000842_depth.png
+  rgb_image_filename: 000842_rgb.png
+  timestamp: 1523376210749210827
+845:
+  camera_to_world:
+    quaternion:
+      w: 0.11120242575208937
+      x: -0.18722517623530893
+      y: 0.8876081524532254
+      z: -0.4058725435270063
+    translation:
+      x: 0.5090448315563333
+      y: 0.564425488088578
+      z: 0.41083657009389396
+  depth_image_filename: 000845_depth.png
+  rgb_image_filename: 000845_rgb.png
+  timestamp: 1523376210849322550
+848:
+  camera_to_world:
+    quaternion:
+      w: -0.11398002835418262
+      x: 0.19111015220764602
+      y: -0.8964690622120294
+      z: 0.3831823108602947
+    translation:
+      x: 0.5209095509227519
+      y: 0.5542437170722634
+      z: 0.43981111721498956
+  depth_image_filename: 000848_depth.png
+  rgb_image_filename: 000848_rgb.png
+  timestamp: 1523376210949433081
+852:
+  camera_to_world:
+    quaternion:
+      w: -0.11971553046698094
+      x: 0.19488562155845787
+      y: -0.9051085509526275
+      z: 0.3584219542204663
+    translation:
+      x: 0.5328607808974685
+      y: 0.541144011819877
+      z: 0.47328856970713673
+  depth_image_filename: 000852_depth.png
+  rgb_image_filename: 000852_rgb.png
+  timestamp: 1523376211082907669
+883:
+  camera_to_world:
+    quaternion:
+      w: 0.1078678526446102
+      x: -0.23646931634702684
+      y: 0.8919078935975407
+      z: -0.3700636406492944
+    translation:
+      x: 0.510160598336292
+      y: 0.5579381504120671
+      z: 0.45592718077565075
+  depth_image_filename: 000883_depth.png
+  rgb_image_filename: 000883_rgb.png
+  timestamp: 1523376212117299072
+888:
+  camera_to_world:
+    quaternion:
+      w: 0.0987256451750575
+      x: -0.2600508420302319
+      y: 0.8784809779604416
+      z: -0.388455889266469
+    translation:
+      x: 0.4879174401329087
+      y: 0.5731865167271655
+      z: 0.43074342457687786
+  depth_image_filename: 000888_depth.png
+  rgb_image_filename: 000888_rgb.png
+  timestamp: 1523376212284141056
+892:
+  camera_to_world:
+    quaternion:
+      w: 0.09271643929718584
+      x: -0.27944825397663164
+      y: 0.86580594316276
+      z: -0.404589179313421
+    translation:
+      x: 0.466828154116667
+      y: 0.5848621574095894
+      z: 0.41020845138651213
+  depth_image_filename: 000892_depth.png
+  rgb_image_filename: 000892_rgb.png
+  timestamp: 1523376212417587034
+896:
+  camera_to_world:
+    quaternion:
+      w: 0.08896517482343691
+      x: -0.29834307042280456
+      y: 0.8521616116555709
+      z: -0.4205914854343923
+    translation:
+      x: 0.4428870839957455
+      y: 0.5956630979994604
+      z: 0.3910417061272453
+  depth_image_filename: 000896_depth.png
+  rgb_image_filename: 000896_rgb.png
+  timestamp: 1523376212551061623
+900:
+  camera_to_world:
+    quaternion:
+      w: 0.08866680772636854
+      x: -0.3157772209481884
+      y: 0.8381229824750456
+      z: -0.4358587043813499
+    translation:
+      x: 0.4173148798657348
+      y: 0.6048001378586552
+      z: 0.3747420475103237
+  depth_image_filename: 000900_depth.png
+  rgb_image_filename: 000900_rgb.png
+  timestamp: 1523376212684540979
+904:
+  camera_to_world:
+    quaternion:
+      w: 0.09238966111825025
+      x: -0.33151822521139207
+      y: 0.8243227427655258
+      z: -0.44950176043110823
+    translation:
+      x: 0.3903384826951293
+      y: 0.6123513359516974
+      z: 0.36221959187265207
+  depth_image_filename: 000904_depth.png
+  rgb_image_filename: 000904_rgb.png
+  timestamp: 1523376212818015568
+909:
+  camera_to_world:
+    quaternion:
+      w: 0.10356261048910118
+      x: -0.34898636395140664
+      y: 0.8081498197931628
+      z: -0.4630088252430363
+    translation:
+      x: 0.35494024340847075
+      y: 0.6199433810535162
+      z: 0.35292405575617003
+  depth_image_filename: 000909_depth.png
+  rgb_image_filename: 000909_rgb.png
+  timestamp: 1523376212984839670
+914:
+  camera_to_world:
+    quaternion:
+      w: -0.12198558065342094
+      x: 0.36412232580093706
+      y: -0.7937767083768466
+      z: 0.47164922050649405
+    translation:
+      x: 0.31854192793783226
+      y: 0.625608841372888
+      z: 0.3509686351761868
+  depth_image_filename: 000914_depth.png
+  rgb_image_filename: 000914_rgb.png
+  timestamp: 1523376213151680939
+919:
+  camera_to_world:
+    quaternion:
+      w: -0.1464363161913928
+      x: 0.3780869800590143
+      y: -0.7810062441374626
+      z: 0.47501146031274283
+    translation:
+      x: 0.28156692874618994
+      y: 0.6297932018886606
+      z: 0.35498979888779536
+  depth_image_filename: 000919_depth.png
+  rgb_image_filename: 000919_rgb.png
+  timestamp: 1523376213318526976
+923:
+  camera_to_world:
+    quaternion:
+      w: -0.16883344967220412
+      x: 0.388478974884379
+      y: -0.7719730854861
+      z: 0.47395876152850697
+    translation:
+      x: 0.25218233042737204
+      y: 0.631994631113384
+      z: 0.36152876218286667
+  depth_image_filename: 000923_depth.png
+  rgb_image_filename: 000923_rgb.png
+  timestamp: 1523376213451944820
+928:
+  camera_to_world:
+    quaternion:
+      w: -0.19826118029243794
+      x: 0.4005363752333104
+      y: -0.761784310921447
+      z: 0.4689859061186665
+    translation:
+      x: 0.2170259964918691
+      y: 0.6332770981509988
+      z: 0.37222549149421186
+  depth_image_filename: 000928_depth.png
+  rgb_image_filename: 000928_rgb.png
+  timestamp: 1523376213618784420
+933:
+  camera_to_world:
+    quaternion:
+      w: -0.22610774958346871
+      x: 0.41130570928405075
+      y: -0.7529175818106755
+      z: 0.46132202861884797
+    translation:
+      x: 0.18558777700800277
+      y: 0.6330980140807506
+      z: 0.3833666696362178
+  depth_image_filename: 000933_depth.png
+  rgb_image_filename: 000933_rgb.png
+  timestamp: 1523376213785636656
+939:
+  camera_to_world:
+    quaternion:
+      w: -0.2533189200645055
+      x: 0.4215657994578924
+      y: -0.7442832374351523
+      z: 0.4518343324027404
+    translation:
+      x: 0.15586115207225892
+      y: 0.631855036623711
+      z: 0.3948728011523299
+  depth_image_filename: 000939_depth.png
+  rgb_image_filename: 000939_rgb.png
+  timestamp: 1523376213985855572
+968:
+  camera_to_world:
+    quaternion:
+      w: 0.2735768622217011
+      x: -0.4289575617984149
+      y: 0.7406816380848038
+      z: -0.43879587695977684
+    translation:
+      x: 0.16275132297774392
+      y: 0.6078826841838376
+      z: 0.41280626704820533
+  depth_image_filename: 000968_depth.png
+  rgb_image_filename: 000968_rgb.png
+  timestamp: 1523376214953538172
+973:
+  camera_to_world:
+    quaternion:
+      w: 0.2758620413336772
+      x: -0.429317764799254
+      y: 0.7417871207777862
+      z: -0.4351301626263039
+    translation:
+      x: 0.1872178686650069
+      y: 0.5821045885234547
+      z: 0.4210555923311925
+  depth_image_filename: 000973_depth.png
+  rgb_image_filename: 000973_rgb.png
+  timestamp: 1523376215120381109
+977:
+  camera_to_world:
+    quaternion:
+      w: 0.2767018674307583
+      x: -0.42920556214818195
+      y: 0.7422137051570996
+      z: -0.43397866060252865
+    translation:
+      x: 0.20810187105407799
+      y: 0.5561475219553423
+      z: 0.4261570624378801
+  depth_image_filename: 000977_depth.png
+  rgb_image_filename: 000977_rgb.png
+  timestamp: 1523376215253806345
+981:
+  camera_to_world:
+    quaternion:
+      w: 0.27662208822276646
+      x: -0.4289686049911997
+      y: 0.7419001511345462
+      z: -0.4347991743158199
+    translation:
+      x: 0.22759242310963484
+      y: 0.5278187461725298
+      z: 0.42917080369220084
+  depth_image_filename: 000981_depth.png
+  rgb_image_filename: 000981_rgb.png
+  timestamp: 1523376215387283318
+985:
+  camera_to_world:
+    quaternion:
+      w: 0.2754479880413042
+      x: -0.4286300811855598
+      y: 0.7411056698188541
+      z: -0.43722653802028966
+    translation:
+      x: 0.24403521596117742
+      y: 0.4995981152923834
+      z: 0.4300914027313931
+  depth_image_filename: 000985_depth.png
+  rgb_image_filename: 000985_rgb.png
+  timestamp: 1523376215520777218
+990:
+  camera_to_world:
+    quaternion:
+      w: -0.27296209218130485
+      x: 0.4282804049774412
+      y: -0.7398542632755696
+      z: 0.44122926020078035
+    translation:
+      x: 0.25886320469208857
+      y: 0.46938781622204595
+      z: 0.4291532201345051
+  depth_image_filename: 000990_depth.png
+  rgb_image_filename: 000990_rgb.png
+  timestamp: 1523376215687630169
+1018:
+  camera_to_world:
+    quaternion:
+      w: -0.2843555392388003
+      x: 0.43585904229352956
+      y: -0.736435516104452
+      z: 0.4322401568285251
+    translation:
+      x: 0.24952245671291545
+      y: 0.45072578152241477
+      z: 0.45381466457529973
+  depth_image_filename: 001018_depth.png
+  rgb_image_filename: 001018_rgb.png
+  timestamp: 1523376216621910326
+1023:
+  camera_to_world:
+    quaternion:
+      w: -0.2980498956648557
+      x: 0.4435848206035313
+      y: -0.7342971800727605
+      z: 0.41857665721047305
+    translation:
+      x: 0.23122333093888783
+      y: 0.45026902452847195
+      z: 0.4812190121590093
+  depth_image_filename: 001023_depth.png
+  rgb_image_filename: 001023_rgb.png
+  timestamp: 1523376216788764946
+1027:
+  camera_to_world:
+    quaternion:
+      w: -0.3104562044565223
+      x: 0.45126418161538184
+      y: -0.7324704736018165
+      z: 0.40430754235727684
+    translation:
+      x: 0.21397243694577156
+      y: 0.44717137927983364
+      z: 0.5079320469974241
+  depth_image_filename: 001027_depth.png
+  rgb_image_filename: 001027_rgb.png
+  timestamp: 1523376216922241919
+1031:
+  camera_to_world:
+    quaternion:
+      w: -0.32338887406306505
+      x: 0.4596525339412493
+      y: -0.7308069412189415
+      z: 0.38737630133995665
+    translation:
+      x: 0.1958129768899191
+      y: 0.4404703400314068
+      z: 0.5378073711190191
+  depth_image_filename: 001031_depth.png
+  rgb_image_filename: 001031_rgb.png
+  timestamp: 1523376217055692188
+1035:
+  camera_to_world:
+    quaternion:
+      w: -0.33554802784424154
+      x: 0.46852913801012985
+      y: -0.7297931388108685
+      z: 0.3678178114092695
+    translation:
+      x: 0.17841373733436552
+      y: 0.42927347908186025
+      z: 0.5694856449392878
+  depth_image_filename: 001035_depth.png
+  rgb_image_filename: 001035_rgb.png
+  timestamp: 1523376217189176552
+1039:
+  camera_to_world:
+    quaternion:
+      w: -0.34577720128006684
+      x: 0.4780840045129328
+      y: -0.7294383998327089
+      z: 0.3461118786654104
+    translation:
+      x: 0.1633748174530287
+      y: 0.4135452880106042
+      z: 0.6010505431688835
+  depth_image_filename: 001039_depth.png
+  rgb_image_filename: 001039_rgb.png
+  timestamp: 1523376217322646372
+1043:
+  camera_to_world:
+    quaternion:
+      w: -0.35331690428131496
+      x: 0.48832548577089296
+      y: -0.729581779385155
+      z: 0.32313435639820165
+    translation:
+      x: 0.15208831510401147
+      y: 0.3936621306110063
+      z: 0.6311979344425187
+  depth_image_filename: 001043_depth.png
+  rgb_image_filename: 001043_rgb.png
+  timestamp: 1523376217456130735
+1047:
+  camera_to_world:
+    quaternion:
+      w: -0.3573877104414725
+      x: 0.49919144893262346
+      y: -0.7305202352950889
+      z: 0.29903529484386615
+    translation:
+      x: 0.14588787480533422
+      y: 0.3704161366943639
+      z: 0.6584794927650389
+  depth_image_filename: 001047_depth.png
+  rgb_image_filename: 001047_rgb.png
+  timestamp: 1523376217589597694
+1051:
+  camera_to_world:
+    quaternion:
+      w: -0.35613762207214367
+      x: 0.5137146903099907
+      y: -0.7329246058808555
+      z: 0.2684860018676999
+    translation:
+      x: 0.14686638320603862
+      y: 0.3384469463027816
+      z: 0.6863781174962063
+  depth_image_filename: 001051_depth.png
+  rgb_image_filename: 001051_rgb.png
+  timestamp: 1523376217756443970
+1055:
+  camera_to_world:
+    quaternion:
+      w: -0.34987652211549314
+      x: 0.5266152719858682
+      y: -0.7350926911130578
+      z: 0.2447478499512898
+    translation:
+      x: 0.1544844793881322
+      y: 0.31272850503281024
+      z: 0.7026838467609777
+  depth_image_filename: 001055_depth.png
+  rgb_image_filename: 001055_rgb.png
+  timestamp: 1523376217889920942
+1060:
+  camera_to_world:
+    quaternion:
+      w: -0.3356516683259956
+      x: 0.5443206698934243
+      y: -0.7375598811080608
+      z: 0.21692945317916915
+    translation:
+      x: 0.17148733090025342
+      y: 0.28300012979638156
+      z: 0.7145856177431646
+  depth_image_filename: 001060_depth.png
+  rgb_image_filename: 001060_rgb.png
+  timestamp: 1523376218056751482
+1065:
+  camera_to_world:
+    quaternion:
+      w: -0.3146033554085974
+      x: 0.5635595480446456
+      y: -0.7391596947400861
+      z: 0.19253132276362062
+    translation:
+      x: 0.19494245856813858
+      y: 0.258052254183701
+      z: 0.7168933418604735
+  depth_image_filename: 001065_depth.png
+  rgb_image_filename: 001065_rgb.png
+  timestamp: 1523376218223573677
+1070:
+  camera_to_world:
+    quaternion:
+      w: -0.28791523962755444
+      x: 0.5841682261940458
+      y: -0.7390266164244109
+      z: 0.172313547093075
+    translation:
+      x: 0.22188821458215757
+      y: 0.2395020897171377
+      z: 0.7104357992645806
+  depth_image_filename: 001070_depth.png
+  rgb_image_filename: 001070_rgb.png
+  timestamp: 1523376218390430204
+1075:
+  camera_to_world:
+    quaternion:
+      w: -0.2576241054522864
+      x: 0.6052088125235235
+      y: -0.7367170686043191
+      z: 0.15684410846708657
+    translation:
+      x: 0.2494533039237028
+      y: 0.227510936426365
+      z: 0.6970405524933526
+  depth_image_filename: 001075_depth.png
+  rgb_image_filename: 001075_rgb.png
+  timestamp: 1523376218557284586
+1080:
+  camera_to_world:
+    quaternion:
+      w: -0.2255585570217029
+      x: 0.6258156745067426
+      y: -0.7322340465512337
+      z: 0.14598417711232867
+    translation:
+      x: 0.27507963920758993
+      y: 0.22132131883024458
+      z: 0.6787689889639202
+  depth_image_filename: 001080_depth.png
+  rgb_image_filename: 001080_rgb.png
+  timestamp: 1523376218724122278
+1086:
+  camera_to_world:
+    quaternion:
+      w: -0.18857484236979097
+      x: 0.6484297134018583
+      y: -0.7244183165384637
+      z: 0.13855157258714515
+    translation:
+      x: 0.30093246162156506
+      y: 0.2195838755113437
+      z: 0.6545868912989483
+  depth_image_filename: 001086_depth.png
+  rgb_image_filename: 001086_rgb.png
+  timestamp: 1523376218924293749
+1093:
+  camera_to_world:
+    quaternion:
+      w: -0.1519812950906747
+      x: 0.6697640804627356
+      y: -0.7141493615717579
+      z: 0.13530872784531534
+    translation:
+      x: 0.32272572654996584
+      y: 0.22185443518678655
+      z: 0.6282856704811896
+  depth_image_filename: 001093_depth.png
+  rgb_image_filename: 001093_rgb.png
+  timestamp: 1523376219157885305
+1120:
+  camera_to_world:
+    quaternion:
+      w: -0.1208213891523926
+      x: 0.6880670272240704
+      y: -0.7025393873732432
+      z: 0.13566269627110142
+    translation:
+      x: 0.33956709612924535
+      y: 0.22244372362240328
+      z: 0.6033776216689207
+  depth_image_filename: 001120_depth.png
+  rgb_image_filename: 001120_rgb.png
+  timestamp: 1523376220058786385
+1129:
+  camera_to_world:
+    quaternion:
+      w: -0.12961026598209371
+      x: 0.6912878590368123
+      y: -0.6970916846293704
+      z: 0.13923167068213246
+    translation:
+      x: 0.34473502057582006
+      y: 0.1895294167131461
+      z: 0.5967454737860826
+  depth_image_filename: 001129_depth.png
+  rgb_image_filename: 001129_rgb.png
+  timestamp: 1523376220359131567
+1135:
+  camera_to_world:
+    quaternion:
+      w: -0.1407046677075804
+      x: 0.6928728284097428
+      y: -0.6921199847814752
+      z: 0.14525621089259452
+    translation:
+      x: 0.34782408081332405
+      y: 0.15375288274310694
+      z: 0.5895417557351483
+  depth_image_filename: 001135_depth.png
+  rgb_image_filename: 001135_rgb.png
+  timestamp: 1523376220559316628
+1140:
+  camera_to_world:
+    quaternion:
+      w: -0.15268782861074842
+      x: 0.6922851840424545
+      y: -0.6883789363902911
+      z: 0.15349948170469896
+    translation:
+      x: 0.34829853733039295
+      y: 0.11896808605789311
+      z: 0.5824456556137029
+  depth_image_filename: 001140_depth.png
+  rgb_image_filename: 001140_rgb.png
+  timestamp: 1523376220726167910
+1145:
+  camera_to_world:
+    quaternion:
+      w: -0.16601197504137524
+      x: 0.6900340957481733
+      y: -0.6848487424235421
+      z: 0.16515196289707323
+    translation:
+      x: 0.34580829573038524
+      y: 0.08305224655332637
+      z: 0.5748341897021929
+  depth_image_filename: 001145_depth.png
+  rgb_image_filename: 001145_rgb.png
+  timestamp: 1523376220893014900
+1150:
+  camera_to_world:
+    quaternion:
+      w: -0.1792639567484001
+      x: 0.6855284722182017
+      y: -0.6823794210545531
+      z: 0.17964819317304204
+    translation:
+      x: 0.3409728928004492
+      y: 0.048366969793189586
+      z: 0.566880494010202
+  depth_image_filename: 001150_depth.png
+  rgb_image_filename: 001150_rgb.png
+  timestamp: 1523376221059809439
+1155:
+  camera_to_world:
+    quaternion:
+      w: -0.1906921713661673
+      x: 0.6796691689823587
+      y: -0.6807800699723404
+      z: 0.19551166932677627
+    translation:
+      x: 0.33404479018159594
+      y: 0.017466606793869417
+      z: 0.559240552317603
+  depth_image_filename: 001155_depth.png
+  rgb_image_filename: 001155_rgb.png
+  timestamp: 1523376221226637594
+1161:
+  camera_to_world:
+    quaternion:
+      w: -0.2012133902919959
+      x: 0.6721971861681936
+      y: -0.6797455908704778
+      z: 0.2135650864886583
+    translation:
+      x: 0.32540678717173727
+      y: -0.011460260592445336
+      z: 0.5516777061752675
+  depth_image_filename: 001161_depth.png
+  rgb_image_filename: 001161_rgb.png
+  timestamp: 1523376221426877491
+1197:
+  camera_to_world:
+    quaternion:
+      w: -0.19575028618324142
+      x: 0.6729096728324531
+      y: -0.6827316717911639
+      z: 0.206765234023863
+    translation:
+      x: 0.33870678689544587
+      y: -0.027701944114510872
+      z: 0.5747344439844579
+  depth_image_filename: 001197_depth.png
+  rgb_image_filename: 001197_rgb.png
+  timestamp: 1523376222628154032
+1204:
+  camera_to_world:
+    quaternion:
+      w: -0.1840909933561582
+      x: 0.6787559611495013
+      y: -0.6855870658884952
+      z: 0.18807239684643423
+    translation:
+      x: 0.3569485825555013
+      y: -0.022854774740788553
+      z: 0.5995474180647533
+  depth_image_filename: 001204_depth.png
+  rgb_image_filename: 001204_rgb.png
+  timestamp: 1523376222861696712
+1211:
+  camera_to_world:
+    quaternion:
+      w: -0.16836069701918802
+      x: 0.6851023042030606
+      y: -0.6890044931301919
+      z: 0.16601902578101796
+    translation:
+      x: 0.3776334580486017
+      y: -0.016098936109926628
+      z: 0.6269185746742816
+  depth_image_filename: 001211_depth.png
+  rgb_image_filename: 001211_rgb.png
+  timestamp: 1523376223095294468
+1217:
+  camera_to_world:
+    quaternion:
+      w: 0.15296846298847236
+      x: -0.6898325126053445
+      y: 0.6922751739910015
+      z: -0.14658389188198664
+    translation:
+      x: 0.39559756427568477
+      y: -0.00910133761178554
+      z: 0.6510700199355982
+  depth_image_filename: 001217_depth.png
+  rgb_image_filename: 001217_rgb.png
+  timestamp: 1523376223295515291
+1224:
+  camera_to_world:
+    quaternion:
+      w: 0.13334705817028278
+      x: -0.6945552624709531
+      y: 0.6959938741781271
+      z: -0.12411316029236903
+    translation:
+      x: 0.41552824842567737
+      y: 0.0007234078795832208
+      z: 0.6774498362099236
+  depth_image_filename: 001224_depth.png
+  rgb_image_filename: 001224_rgb.png
+  timestamp: 1523376223529062025
+1231:
+  camera_to_world:
+    quaternion:
+      w: 0.11323500374338089
+      x: -0.6979833342545924
+      y: 0.6994962534911182
+      z: -0.10345090807705803
+    translation:
+      x: 0.4328189932210461
+      y: 0.011263006909607135
+      z: 0.7003679220541399
+  depth_image_filename: 001231_depth.png
+  rgb_image_filename: 001231_rgb.png
+  timestamp: 1523376223762667887
+1240:
+  camera_to_world:
+    quaternion:
+      w: 0.08915497704641281
+      x: -0.7004531436693592
+      y: 0.7034426513813927
+      z: -0.08114936727470005
+    translation:
+      x: 0.44974044266784385
+      y: 0.024376650610621668
+      z: 0.7230796020450294
+  depth_image_filename: 001240_depth.png
+  rgb_image_filename: 001240_rgb.png
+  timestamp: 1523376224062960617
+1259:
+  camera_to_world:
+    quaternion:
+      w: 0.06160715097629034
+      x: -0.7014805631263054
+      y: 0.7076437547041196
+      z: -0.0580507961430674
+    translation:
+      x: 0.46484515782994185
+      y: 0.040074531751177776
+      z: 0.7438773538859899
+  depth_image_filename: 001259_depth.png
+  rgb_image_filename: 001259_rgb.png
+  timestamp: 1523376224696932308
+1282:
+  camera_to_world:
+    quaternion:
+      w: 0.059521962805547286
+      x: -0.7095911694150414
+      y: 0.7000993877399698
+      z: -0.05289948504559409
+    translation:
+      x: 0.4816066131061614
+      y: 0.013376180419173786
+      z: 0.7446429504585691
+  depth_image_filename: 001282_depth.png
+  rgb_image_filename: 001282_rgb.png
+  timestamp: 1523376225497787945
+1288:
+  camera_to_world:
+    quaternion:
+      w: 0.06235410408284851
+      x: -0.7154704965018723
+      y: 0.6943256531430344
+      z: -0.04610663430450948
+    translation:
+      x: 0.4951151830998594
+      y: -0.017943565358859513
+      z: 0.7450638255883535
+  depth_image_filename: 001288_depth.png
+  rgb_image_filename: 001288_rgb.png
+  timestamp: 1523376225697992556
+1293:
+  camera_to_world:
+    quaternion:
+      w: 0.06962908165820612
+      x: -0.7192534762468366
+      y: 0.6901906697784436
+      z: -0.03825006202686504
+    translation:
+      x: 0.5048589052533552
+      y: -0.05366530517658539
+      z: 0.745182840884402
+  depth_image_filename: 001293_depth.png
+  rgb_image_filename: 001293_rgb.png
+  timestamp: 1523376225864810459
+1297:
+  camera_to_world:
+    quaternion:
+      w: 0.0794477345892961
+      x: -0.7206817076792422
+      y: 0.6879814956641644
+      z: -0.03142284692480141
+    translation:
+      x: 0.50984916027155
+      y: -0.08810857905207217
+      z: 0.7450973930689156
+  depth_image_filename: 001297_depth.png
+  rgb_image_filename: 001297_rgb.png
+  timestamp: 1523376225998289101
+1301:
+  camera_to_world:
+    quaternion:
+      w: 0.09278141161809488
+      x: -0.7206267893946461
+      y: 0.6866283521119055
+      z: -0.025102711825785655
+    translation:
+      x: 0.5113391090493544
+      y: -0.12570757837398255
+      z: 0.7448169613375919
+  depth_image_filename: 001301_depth.png
+  rgb_image_filename: 001301_rgb.png
+  timestamp: 1523376226131766073
+1305:
+  camera_to_world:
+    quaternion:
+      w: 0.10861706627345429
+      x: -0.7186753831593129
+      y: 0.6865295520273101
+      z: -0.019626531740048497
+    translation:
+      x: 0.5088738253810617
+      y: -0.1652583424284749
+      z: 0.743960207875436
+  depth_image_filename: 001305_depth.png
+  rgb_image_filename: 001305_rgb.png
+  timestamp: 1523376226265243046
+1309:
+  camera_to_world:
+    quaternion:
+      w: 0.1258136967220422
+      x: -0.7152079590222344
+      y: 0.6873083639523859
+      z: -0.015990681957889413
+    translation:
+      x: 0.5024271043983178
+      y: -0.20398973980669036
+      z: 0.7430536466336669
+  depth_image_filename: 001309_depth.png
+  rgb_image_filename: 001309_rgb.png
+  timestamp: 1523376226398678057
+1313:
+  camera_to_world:
+    quaternion:
+      w: 0.1427362649510023
+      x: -0.7107943104843073
+      y: 0.6886256603597969
+      z: -0.013874679996655603
+    translation:
+      x: 0.49351083662428963
+      y: -0.23933896640535923
+      z: 0.7416296260518708
+  depth_image_filename: 001313_depth.png
+  rgb_image_filename: 001313_rgb.png
+  timestamp: 1523376226532155029
+1317:
+  camera_to_world:
+    quaternion:
+      w: 0.1575579195751105
+      x: -0.7062230489614056
+      y: 0.6901098974246467
+      z: -0.013146732345423913
+    translation:
+      x: 0.4838597625624087
+      y: -0.26861736453414675
+      z: 0.7400915834333123
+  depth_image_filename: 001317_depth.png
+  rgb_image_filename: 001317_rgb.png
+  timestamp: 1523376226665648453
+1324:
+  camera_to_world:
+    quaternion:
+      w: 0.17289878571302134
+      x: -0.7007920665198973
+      y: 0.6919675230709517
+      z: -0.013320526145295664
+    translation:
+      x: 0.47217453989339625
+      y: -0.2977646923461269
+      z: 0.7381264548226834
+  depth_image_filename: 001324_depth.png
+  rgb_image_filename: 001324_rgb.png
+  timestamp: 1523376226899260036
+1350:
+  camera_to_world:
+    quaternion:
+      w: 0.15968815844787487
+      x: -0.7002746798962555
+      y: 0.6957050513846327
+      z: -0.010466433281229405
+    translation:
+      x: 0.4897750987815441
+      y: -0.2730270063915062
+      z: 0.7362629815536711
+  depth_image_filename: 001350_depth.png
+  rgb_image_filename: 001350_rgb.png
+  timestamp: 1523376227766779415
+1356:
+  camera_to_world:
+    quaternion:
+      w: 0.14616125349714315
+      x: -0.7001566060634589
+      y: 0.6988064801759973
+      z: -0.009333714473663823
+    translation:
+      x: 0.505820098718638
+      y: -0.2466719958059586
+      z: 0.7348199797765027
+  depth_image_filename: 001356_depth.png
+  rgb_image_filename: 001356_rgb.png
+  timestamp: 1523376227966995470
+1361:
+  camera_to_world:
+    quaternion:
+      w: 0.13240848644424244
+      x: -0.7000152463727778
+      y: 0.701674045205721
+      z: -0.010009088262382951
+    translation:
+      x: 0.5208174942176121
+      y: -0.21831987639185851
+      z: 0.7336943516271641
+  depth_image_filename: 001361_depth.png
+  rgb_image_filename: 001361_rgb.png
+  timestamp: 1523376228133832447
+1366:
+  camera_to_world:
+    quaternion:
+      w: 0.11708751118225198
+      x: -0.6999075416204522
+      y: 0.704453678528577
+      z: -0.012843781200176175
+    translation:
+      x: 0.5359430332606502
+      y: -0.18440942416673708
+      z: 0.7327855987403018
+  depth_image_filename: 001366_depth.png
+  rgb_image_filename: 001366_rgb.png
+  timestamp: 1523376228300647013
+1370:
+  camera_to_world:
+    quaternion:
+      w: 0.10431695980826769
+      x: -0.6997766324474556
+      y: 0.7064937498332384
+      z: -0.01724001228045229
+    translation:
+      x: 0.5472863510431851
+      y: -0.15358063924955095
+      z: 0.7324060737335041
+  depth_image_filename: 001370_depth.png
+  rgb_image_filename: 001370_rgb.png
+  timestamp: 1523376228434146397
+1374:
+  camera_to_world:
+    quaternion:
+      w: 0.09149979617169067
+      x: -0.6998336560157766
+      y: 0.7080251490730243
+      z: -0.02368606105398705
+    translation:
+      x: 0.557372863423921
+      y: -0.11956055087147258
+      z: 0.732316909657998
+  depth_image_filename: 001374_depth.png
+  rgb_image_filename: 001374_rgb.png
+  timestamp: 1523376228567596905
+1378:
+  camera_to_world:
+    quaternion:
+      w: 0.07902653181154012
+      x: -0.6995333727127737
+      y: 0.7094842500930654
+      z: -0.032248513156613805
+    translation:
+      x: 0.565568925388459
+      y: -0.0835504253634538
+      z: 0.7324226889657883
+  depth_image_filename: 001378_depth.png
+  rgb_image_filename: 001378_rgb.png
+  timestamp: 1523376228701008789
+1382:
+  camera_to_world:
+    quaternion:
+      w: 0.06756375165796921
+      x: -0.6992111649766701
+      y: 0.7104049204557381
+      z: -0.04317099982795598
+    translation:
+      x: 0.5713983780252838
+      y: -0.04561723106235164
+      z: 0.7330432096670215
+  depth_image_filename: 001382_depth.png
+  rgb_image_filename: 001382_rgb.png
+  timestamp: 1523376228834501020
+1386:
+  camera_to_world:
+    quaternion:
+      w: 0.05745520518454895
+      x: -0.6988000446632877
+      y: 0.7107907623132196
+      z: -0.05615949773618247
+    translation:
+      x: 0.5745485450245449
+      y: -0.006082859780811004
+      z: 0.7340854737791033
+  depth_image_filename: 001386_depth.png
+  rgb_image_filename: 001386_rgb.png
+  timestamp: 1523376228967983238
+1389:
+  camera_to_world:
+    quaternion:
+      w: 0.05114770601480524
+      x: -0.6985432117835936
+      y: 0.7105893059549853
+      z: -0.06696365956917937
+    translation:
+      x: 0.5750384101552395
+      y: 0.02403500118871907
+      z: 0.7351005152063728
+  depth_image_filename: 001389_depth.png
+  rgb_image_filename: 001389_rgb.png
+  timestamp: 1523376229068099968
+1392:
+  camera_to_world:
+    quaternion:
+      w: 0.045988009637845766
+      x: -0.698229168255219
+      y: 0.7100433716441228
+      z: -0.07873717007500845
+    translation:
+      x: 0.5738223485276064
+      y: 0.05439293499035903
+      z: 0.7363961830370914
+  depth_image_filename: 001392_depth.png
+  rgb_image_filename: 001392_rgb.png
+  timestamp: 1523376229168207876
+1395:
+  camera_to_world:
+    quaternion:
+      w: 0.04200385559370863
+      x: -0.6977510895091011
+      y: 0.7092756093761228
+      z: -0.09114385963000483
+    translation:
+      x: 0.5709759489099155
+      y: 0.0845165356919573
+      z: 0.7378316020461074
+  depth_image_filename: 001395_depth.png
+  rgb_image_filename: 001395_rgb.png
+  timestamp: 1523376229268305532
+1399:
+  camera_to_world:
+    quaternion:
+      w: 0.038528362687213866
+      x: -0.6969893235041619
+      y: 0.7078022540684834
+      z: -0.10833936184705704
+    translation:
+      x: 0.5647949597639441
+      y: 0.12381284532413014
+      z: 0.7398830985603979
+  depth_image_filename: 001399_depth.png
+  rgb_image_filename: 001399_rgb.png
+  timestamp: 1523376229401782505
+1403:
+  camera_to_world:
+    quaternion:
+      w: 0.03740303289933408
+      x: -0.6961142412856257
+      y: 0.7058138324426249
+      z: -0.12590794312481987
+    translation:
+      x: 0.5559911610514066
+      y: 0.1616024010688232
+      z: 0.7422956047698698
+  depth_image_filename: 001403_depth.png
+  rgb_image_filename: 001403_rgb.png
+  timestamp: 1523376229535249941
+1407:
+  camera_to_world:
+    quaternion:
+      w: 0.038385385887171934
+      x: -0.6950632786271819
+      y: 0.7034635176808116
+      z: -0.14336205964781792
+    translation:
+      x: 0.5450204793916442
+      y: 0.19726616933701152
+      z: 0.7449280527145824
+  depth_image_filename: 001407_depth.png
+  rgb_image_filename: 001407_rgb.png
+  timestamp: 1523376229668745272
+1411:
+  camera_to_world:
+    quaternion:
+      w: 0.04117397914196893
+      x: -0.693978439825292
+      y: 0.7007771639362608
+      z: -0.16003123134164332
+    translation:
+      x: 0.5324980116635092
+      y: 0.23022960250259722
+      z: 0.747594156793969
+  depth_image_filename: 001411_depth.png
+  rgb_image_filename: 001411_rgb.png
+  timestamp: 1523376229802184336
+1415:
+  camera_to_world:
+    quaternion:
+      w: 0.045372447134000904
+      x: -0.6928188598384125
+      y: 0.6979483608971868
+      z: -0.17553191736606305
+    translation:
+      x: 0.519053699460867
+      y: 0.2600881398460384
+      z: 0.7502054851893165
+  depth_image_filename: 001415_depth.png
+  rgb_image_filename: 001415_rgb.png
+  timestamp: 1523376229935650103
+1420:
+  camera_to_world:
+    quaternion:
+      w: 0.05185805082523537
+      x: -0.6912492651994102
+      y: 0.6944855851000132
+      z: -0.1928081118993073
+    translation:
+      x: 0.5020334375717412
+      y: 0.2922781925157848
+      z: 0.7533653746237128
+  depth_image_filename: 001420_depth.png
+  rgb_image_filename: 001420_rgb.png
+  timestamp: 1523376230102505199
+1425:
+  camera_to_world:
+    quaternion:
+      w: 0.058745802395736076
+      x: -0.6898254423914623
+      y: 0.69123001876941
+      z: -0.2071010644162533
+    translation:
+      x: 0.48620763299741887
+      y: 0.3183310965023095
+      z: 0.756151382047767
+  depth_image_filename: 001425_depth.png
+  rgb_image_filename: 001425_rgb.png
+  timestamp: 1523376230269361488
+1432:
+  camera_to_world:
+    quaternion:
+      w: 0.06711649502255622
+      x: -0.688204743360766
+      y: 0.687722760484074
+      z: -0.2211492980404722
+    translation:
+      x: 0.4688208451942919
+      y: 0.343615843442425
+      z: 0.7591772420051457
+  depth_image_filename: 001432_depth.png
+  rgb_image_filename: 001432_rgb.png
+  timestamp: 1523376230502944462

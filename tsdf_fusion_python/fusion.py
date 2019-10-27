@@ -24,12 +24,13 @@ except Exception as err:
 
 class TSDFVolume(object):
 
-    def __init__(self, vol_bnds, voxel_size):
+    def __init__(self, vol_bnds, voxel_size, work_space=np.array([-2, 2, -2, 2, -2, 2])):
 
         # Define voxel volume parameters
         self._vol_bnds = vol_bnds  # rows: x,y,z columns: min,max in world coordinates in meters
         self._voxel_size = voxel_size  # in meters (determines volume discretization and resolution)
         self._trunc_margin = self._voxel_size * 5  # truncation on SDF
+        self._work_space = work_space
 
         # Adjust volume bounds
         self._vol_dim = np.ceil((self._vol_bnds[:, 1] - self._vol_bnds[:, 0]) / self._voxel_size).copy(
@@ -60,6 +61,7 @@ class TSDFVolume(object):
                                         float * color_vol,
                                         float * vol_dim,
                                         float * vol_origin,
+                                        float * work_space,
                                         float * cam_intr,
                                         float * cam_pose,
                                         float * other_params,
@@ -89,6 +91,10 @@ class TSDFVolume(object):
                 float pt_x = vol_origin[0]+voxel_x*voxel_size;
                 float pt_y = vol_origin[1]+voxel_y*voxel_size;
                 float pt_z = vol_origin[2]+voxel_z*voxel_size;
+
+                // Work space filter
+                if (pt_x < work_space[0] || pt_x > work_space[1] || pt_y < work_space[2] || pt_y > work_space[3] || pt_z < work_space[4] || pt_z > work_space[5])
+                    return;
 
                 // World coordinates to camera coordinates
                 float tmp_pt_x = pt_x-cam_pose[0*4+3];
@@ -195,6 +201,7 @@ class TSDFVolume(object):
                                      self._color_vol_gpu,
                                      cuda.InOut(self._vol_dim.astype(np.float32)),
                                      cuda.InOut(self._vol_origin.astype(np.float32)),
+                                     cuda.InOut(self._work_space.astype(np.float32)),
                                      cuda.InOut(cam_intr.reshape(-1).astype(np.float32)),
                                      cuda.InOut(cam_pose.reshape(-1).astype(np.float32)),
                                      cuda.InOut(np.asarray(
@@ -211,7 +218,9 @@ class TSDFVolume(object):
             # Get voxel grid coordinates
             xv, yv, zv = np.meshgrid(range(self._vol_dim[0]), range(self._vol_dim[1]), range(self._vol_dim[2]),
                                      indexing='ij')
+            # print "xv, yv, zv", xv, yv, zv
             vox_coords = np.concatenate((xv.reshape(1, -1), yv.reshape(1, -1), zv.reshape(1, -1)), axis=0).astype(int)
+            # print "vox_coords", vox_coords
 
             # Voxel coordinates to world coordinates
             world_pts = self._vol_origin.reshape(-1, 1) + vox_coords.astype(float) * self._voxel_size
@@ -286,6 +295,27 @@ class TSDFVolume(object):
         colors = np.floor(np.asarray([colors_r, colors_g, colors_b])).T
         colors = colors.astype(np.uint8)
         return verts, faces, norms, colors
+
+    def get_surface(self):
+        if FUSION_GPU_MODE:
+            cuda.memcpy_dtoh(self._tsdf_vol_cpu, self._tsdf_vol_gpu)
+            cuda.memcpy_dtoh(self._color_vol_cpu, self._color_vol_gpu)
+            cuda.memcpy_dtoh(self._weight_vol_cpu, self._weight_vol_gpu)
+
+        # Count total number of points in point cloud
+        num_pts = 0
+        print self._vol_dim
+        print self._weight_vol_cpu[0], self._weight_vol_cpu.shape, type(self._weight_vol_cpu)
+        print self._tsdf_vol_cpu[0], self._tsdf_vol_cpu.shape, type(self._tsdf_vol_cpu.dtype)
+
+        # too slow!
+        for x in range(self._vol_dim[0]):
+            for y in range(self._vol_dim[1]):
+                for z in range(self._vol_dim[2]):
+                    if abs(self._tsdf_vol_cpu[x][y][z]) < 0.2 and self._weight_vol_cpu[x][y][z] > 0.0:
+                        num_pts += 1
+
+        print num_pts
 
 
 # -------------------------------------------------------------------------------
@@ -458,9 +488,15 @@ def meshwrite_color_binary(filename, verts, faces, norms, colors):
 
 if __name__ == "__main__":
     path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
-    print path
+    voxel_size = 0.005  # voxel size
+    max_depth = 1.2  # max depth
+
     if sys.argv.__len__() > 1:
         path = sys.argv[1]  # get data path
+    if sys.argv.__len__() > 2:
+        voxel_size = float(sys.argv[2])  # get voxel size
+    if sys.argv.__len__() > 3:
+        max_depth = float(sys.argv[3])  # get max depth
 
     # get file prefix in data folder
     imagels = sorted(glob.glob(os.path.join(path, '*.png')))
@@ -472,9 +508,9 @@ if __name__ == "__main__":
     # print prefixls
 
     # prepare for fusion
-    max_depth = 1.2  # max depth
     print "Image path to run fusion:", path
     print "Have %d images to fusion..." % n_imgs
+    print "Voxel size: %.4f, Max depth: %.4f" % (voxel_size, max_depth)
 
     # (Optional) sample code to compute 3D bounds (in world coordinates) around convex hull of all camera view frustums in dataset
     print("Estimating voxel volume bounds...")
@@ -494,14 +530,15 @@ if __name__ == "__main__":
 
     # Initialize voxel volume
     print("Initializing voxel volume...")
-    tsdf_vol = TSDFVolume(vol_bnds, voxel_size=0.002)
+    tsdf_vol = TSDFVolume(vol_bnds, voxel_size=voxel_size, work_space=np.array([-2, 2, -2, 2, -2, 2]))
 
     # Loop through RGB-D images and fuse them together
     t0_elapse = time.time()
     fusion_cnt = 0
     for prefix in prefixls:
         fusion_cnt += 1
-        print("Fusing frame %d/%d" % (fusion_cnt, n_imgs))
+        if fusion_cnt % 10 == 0:
+            print("Fusing frame %d/%d" % (fusion_cnt, n_imgs))
 
         # Read RGB-D image and camera pose
         color_image = cv2.cvtColor(cv2.imread(prefix + ".color.jpg"), cv2.COLOR_BGR2RGB)
@@ -514,7 +551,7 @@ if __name__ == "__main__":
         tsdf_vol.integrate(color_image, depth_im, cam_intr, cam_pose, obs_weight=1.)
 
     fps = n_imgs / (time.time() - t0_elapse)
-    print("Average FPS: %.2f" % fps)
+    print("Fusion done, average fps: %.2f" % fps)
 
     # Get mesh from voxel volume and save to disk (can be viewed with Meshlab)
     print("Saving to ply file...")
